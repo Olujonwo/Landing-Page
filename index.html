@@ -4,32 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div class="body">
-        <div class="navbar" id="myTopnav">
-            <div>
-                <img src="Images/Logo.png"/>
+    <header>
+        <div class="logo">
+            <img src="Images/Logo.png"/>
+           </div>
+            <ul class="navbar">
+              <li><a href="#" class="Myurl">My Urls</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Analytics</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+            <div class="main">
+              <a href="#" class="log">Login</a>
+              <a href="#" class="try">Try for free</a>
+              <div class="bx bx-menu" id="menu-icon"></div>
             </div>
-            <div>
-                <a href="index.html" class="Myurl">My Urls</a>
-                <a href="Features.html" class="nav">Features</a>
-                <a href="Pricing.html" class="nav">Pricing</a>
-                <a href="Analytics.html" class="nav">Analytics</a>
-                <a href="FAQs.html" class="nav">FAQs</a>
-                
-            </div>
-            <div class="side">
-               <div>
-                <a href="Login.html" class="log">Log in</a>
-               </div>
-                <div>
-                    <a href="Tryforfree.html" class="try">Try for free</a>
-                </div>
-            </div>   
-        </div>
+    </header>
+    <div class="bodies">
         <div>
             <div class="optimize">
                    <p>
@@ -502,17 +503,6 @@
         </div>
         <img src="Images/Frame 1000001666.png" class="end"/>
     </footer>
-  <script>
-     let answers = document.querySelectorAll(".accordion");
-     answers.forEach((event) => {
-        event.addEventListener('click', () => {
-           if (event.classList.contains("active")) {
-              event.classList.remove("active");
-           } else {
-              event.classList.add("active");
-           }
-        })
-     })
-  </script>      
+  <script src="script.js"></script>      
 </body>
 </html>
