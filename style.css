@@ -92,7 +92,7 @@ header {
     font-weight: 500; 
 }
 .main a:hover{
-    color: var(--main-color);
+    color: var(--text-color);
 }
 #menu-icon{
     font-size: 35px;
@@ -188,6 +188,15 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
+}
+@media(max-width: 600px) {
+    .img {
+        height: 300px;
+        width: 200px;
+    }
+    .Ellipse {
+        width: 50%;
+    }
 }
 
 .frame {
@@ -428,8 +437,12 @@ header {
     background-color: #1E3448;
     height: 200px;
     position: relative;
-    top: 0;
-    left: 0;
+    width: 100%;
+}
+@media(max-width: 700px) {
+    .click1 {
+        width: 100%;
+    }
 }
 .picture1 {
     height: 200px;
@@ -470,11 +483,15 @@ header {
     font-size: 15px;
 }
 .footer {
-    padding: 50px;
     background-color: rgb(224, 234, 245);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+    width: 100%;
 }
 .footer1 {
     display: flex;
@@ -483,12 +500,24 @@ header {
 .footer2 {
     width: 200px;
     padding: 5px 20px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 28px;
 }
 .footer3 {
     padding-top: 50px;
+}
+@media(max-width: 767px) {
+    .footer2 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 567px) {
+    .footer2 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 .end {
     padding: 20px;
