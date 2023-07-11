@@ -441,6 +441,7 @@ header {
     border: #0065FE solid 1px;
     border-radius: 6px;
     height: 30px;
+    padding: 10px;
 }
 .clicke {
     border-radius: 10px;
@@ -500,14 +501,16 @@ header {
     }
     .drop1 {
         line-height: 50px;
+
     }
+    
 }
 
 .paste1 {
     border: #0065FE solid 1px;
     border-radius: 6px;
     width: 120px;
-    height: 30px;
+    height: 40px;
 }
 .drop {
     display: flex;
@@ -603,6 +606,10 @@ header {
     }
     .clicke {
         padding: 50px 115px;
+    }
+    .paste1 {
+        width: 195px;
+        height: 40px;
     }
 }
 .picture1 {
